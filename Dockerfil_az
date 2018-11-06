@@ -1,0 +1,2 @@
+FROM docker:17.10.0-ce-git
+RUN apk add --no-cache gcc make libffi-dev musl-dev openssl-dev python-dev py-pip && pip install azure-cli
