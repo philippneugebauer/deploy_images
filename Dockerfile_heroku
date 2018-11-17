@@ -1,0 +1,3 @@
+FROM docker:18.06.1-ce-git
+RUN apk add -U nodejs nodejs-npm
+RUN npm install -g npm && npm install -g heroku
