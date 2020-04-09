@@ -1,2 +1,2 @@
-FROM docker:19.03-git
-RUN apt-get install bash
+FROM docker:19.03-dind
+RUN apk add bash git
