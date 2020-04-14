@@ -1,0 +1,2 @@
+FROM circleci/elixir:1.9.2-node
+RUN sudo apt-get install lftp
