@@ -1,2 +1,2 @@
-FROM docker:19.03-dind
+FROM docker:19.03.5-dind
 RUN apk add bash git curl
