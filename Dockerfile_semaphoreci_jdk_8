@@ -1,0 +1,2 @@
+FROM circleci/openjdk:8-jdk-node
+RUN sudo apt-get install lftp
