@@ -1,0 +1,4 @@
+FROM circleci/openjdk:11-node-browsers-legacy
+RUN sudo apt-get update
+RUN sudo apt-get install lftp
+RUN sudo npm install -g cypress
