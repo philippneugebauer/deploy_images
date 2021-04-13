@@ -1,4 +1,4 @@
-FROM circleci/openjdk:11-node-browsers-legacy
+FROM circleci/openjdk:16-node-browsers
 RUN sudo apt-get update
 RUN sudo apt-get install lftp
 RUN sudo npm install -g npm@latest
