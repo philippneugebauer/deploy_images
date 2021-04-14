@@ -1,4 +1,5 @@
-FROM circleci/openjdk:16-node-browsers
+FROM circleci/openjdk:16-jdk-buster-node-browsers
 RUN sudo apt-get update
 RUN sudo apt-get install lftp
 RUN sudo npm install -g npm@latest
+RUN sudo npm install -g cypress
