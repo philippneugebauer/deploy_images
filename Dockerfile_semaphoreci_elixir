@@ -1,3 +1,5 @@
-FROM cimg/elixir:1.17.2-erlang-26.2.1-node
+FROM elixir:1.17
 RUN sudo apt-get update
-RUN sudo apt-get install lftp
+RUN sudo apt-get install lftp build-essential
+RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - \
+    && apt-get install -y nodejs
